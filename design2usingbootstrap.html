@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./codes for links/bootstrap.min.css">
+    <link rel="stylesheet" href="./codes for links/font-awesome.min.css">
+    <script src="./codes for links/jquery.min.js"></script>
+    <script src="./codes for links/bootstrap.min.js"></script>
+    <script src="./codes for links/popper.min.js"></script>
+    <script src="./codes for links/a076d05399.js"></script>
+    <title>Design2usingBootstrap</title>
+    <style>
+        body{
+            margin: 0%;
+            width: 100%;
+        }
+        .topimg{
+            height: 80vh;
+            width: 100%;
+            background-image: url(./banner.jpg);
+            background-attachment: fixed;
+            background-color: bisque;
+            opacity: 0.8;
+            
+        }
+        .topheading{
+          padding-top: 3vh;
+          padding-bottom: 8vh;
+        }
+        .cardbtn{
+          margin-top: 5vh;
+        }
+        
+        .d-flex .card{
+            background-color: transparent;
+            outline-style: none;
+            border: none;
+            border-right:solid 1px rgb(129, 210, 241);
+
+        }
+        .seconddiv{
+          background-color: white;
+          height: 100vh;
+          max-width: 90%;
+          
+        }
+        .secondboxdiv1, .secondboxdiv2{          
+          max-width: 35%;   
+        }
+         
+.input-details-div{
+  background-color: #6cc091;
+  height: 100vh;
+  width: 100%;
+}
+.form-group input{
+  background-color: transparent;
+  max-width: 40vw;
+}
+.form-group textarea{
+  height: 30vh;
+  background-color: transparent;
+}
+@media screen and (max-width: 500px){
+  .topimg{
+    height: 100vh;    
+  }
+  .topheading{
+    font-size: x-large;
+    padding-top: 0%;
+    
+  }
+  .topheading{
+          padding-top: 1vh;
+          padding-bottom: 2vh;
+        }
+  .topbox h5{
+    font-size: large;
+
+  }
+  .topbox{
+    padding-top: -2vh;
+  }
+  .d-flex .card{
+    border-right:none;
+
+  }
+  .topbox i{
+    font-size: x-large;
+    margin-top: -1vh;
+
+  }
+  .topbox p{
+    font-size: medium;
+    margin-top: -1vh;
+  }
+  .seconddiv{
+    display: block;
+    margin-top: 5vh;
+
+  }
+  .rounded-circle{
+    height: 15vh;
+    width: 25vw;
+  }
+  .secondboxdiv1 h3{
+    font-size: large;
+    margin: none;
+  }
+  .secondboxdiv1, .secondboxdiv2{
+    max-width: 80%;
+   
+  }
+  .form-inline{
+    display: block;
+    max-width: 100%;
+    justify-content: center;
+  }
+  .cardbtn{
+    margin-top: 5vh;
+  }
+  
+  
+  
+}
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="topimg pt-4">
+            <nav class="navbar navbar-expand-xxl  justify-content-left">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Projection by TEMPLATED
+                    </a>
+                  </li>
+                </ul>
+                <ul class="nav justify-content-end navbar-expand-sm">
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Home</a>
+                        
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Generic </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#">Elements</a>
+                    </li>
+                    
+                  </ul>
+              </nav>
+              <hr  class="hrline  w-75 bg-light" >
+              <div  class="container callout ">
+                  <h1 class="topheading text-light text-center">Welcome to Projection</h1>
+                   <div class=" row  d-flex h-100 mw-100 m-auto container justify-content-around ">
+                     <div class="topbox topcol h-25 col-12 col-md-4 card text-light text-center m-auto h-50 w-25 " >
+                        <i class="fas fa-car card-img-top h1 text-success fs-1 fw-bold"></i>
+                        <div class="card-body">
+                          <h5 class="card-title h3">Aliquam</h5>
+                          <p class="card-text">Suspendisse amet ullamco</p>
+                          
+                        </div>
+                      </div>
+                      <div class="topcol  topbox  h-25 col-12 col-sm-4 card text-light text-center m-auto h-50 w-25">
+                        <i class="fas fa-car card-img-top h1 text-success fs-1 fw-bold"></i>
+                        <div class="card-body">
+                          <h5 class="card-title h3">Elementum</h5>
+                          <p class="card-text">Class aptent taciti ad litora</p>
+                          
+                        </div>
+                      </div>
+                      <div class="topcol  topbox  border-0 h-25 col-12 col-sm-4 card text-light text-center m-auto h-50 w-25"  >
+                        <i class="fas fa-camera card-img-top h1 text-success fw-bold"></i>
+                        <div class="card-body">
+                          <h5 class="card-title h3">Ultrices</h5>
+                          <p class="card-text">Nulla vitae mauris non felis</p>
+                         
+                        </div>
+                      </div>
+                  </div>
+                  <div class="cardbtn  text-center">
+                    <button  class="btn border border-success rounded-pill  px-5 text-light" type="button" >GET STARTED</button>
+                  </div>
+              </div>
+        </div>
+       <div class="seconddiv  row  mw-100 mh-100 justify-content-center">
+        
+          <div class="secondboxdiv1 col-12 col-md-6 m-auto text-center h-50 ">
+              <img class="  rounded-circle" src="./pic01.jpg" alt="">
+              <div>
+                  <h3 class="align-middle ">Lorem ipsum dolor amet nullam</h3>
+                  <p>Morbi in sem quis dui placerat ornare. Pellentesquenisi
+                      euismod in, pharetra a, ultricies in diam sed arcu. Cras
+                      consequat egestas augue vulputate.</p>
+                      <button class="btn btn-lg  border border-success rounded-pill" type="button">LEARN MORE</button>
+              </div>
+
+          </div>
+          <div class="secondboxdiv2 col-12 col-md-6  m-auto text-center h-50 ">
+              <img class="rounded-circle" src="./pic02.jpg" alt="">
+              <div>
+                  <h3>Sed feugiat tempus adipicsing</h3>
+                  <p>Pellentesque fermentum dolor. Aliquam quam lectus
+                      facilisis auctor, ultrices ut, elementum vulputate, nunc
+                      blandit ellenste egestagus commodo.</p>
+                     <button class="btn  border border-success rounded-pill btn-lg" type="button">LEARN MORE</button>
+              </div>
+
+          </div>
+          
+      
+       </div> 
+       <div class="input-details-div text-light">
+        <h1 class="text-center text-light pt-5 fw-bold fst-italic">Get in touch</h1>
+        <form class="container pt-5" >
+          <div class="form-inline justify-content-around">
+            <div class="form-group  w-50 ">
+              <label>Email:</label>
+              <input type="email" class="form-control  w-100"placeholder="Enter email" >
+            </div>
+            <div class="form-group  w-50">
+              <label >Password:</label>
+              <input type="password" class="form-control w-100" placeholder="Enter password" >
+            </div>
+            
+          </div>
+          <div class="form-group mt-4 ">
+            <label id="lab3" for="">Message</label><br>
+                <textarea  cols="30" rows="10" class="form-control bg" placeholder="Enter Your message"></textarea>
+                <div>
+          </div>
+          <div class="text-center mt-5 ">
+            <button type="submit" class="btn border border-success   rounded-pill   px-5 text-light">Submit</button>
+          </div>
+        </form>
+        <p class="text-center mt-5" >© Untitled. Design: TEMPLATED. Images: Unsplash.</p>
+        
+    </div>
+    </div>
+</body>
+</html>
